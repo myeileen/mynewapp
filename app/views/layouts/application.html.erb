@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mynewapp</title>
+  <title>Myeileenapp</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, intitial-scale=1">
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     <div class="container-fluid">
+       <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       </div>
+         <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#faq">FAQ</a></li>
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+         </div>
+     </div>
+
+     <div class="projectName">
+       <a href="#">Eileen Burke Woodward</a>
+     </div>
+
+  </nav>
+  <div class="page-wrap">
+     <h1>Myeileen Ceremonies</h1>
+      <h2>Specializing in small wedding ceremonies and couples who want to elope to California!</h2>
+  </div>
+
 
 <%= yield %>
+
+<footer class="site-footer">
+  &copy; myeileen 2015
+</footer>
 
 </body>
 </html>
