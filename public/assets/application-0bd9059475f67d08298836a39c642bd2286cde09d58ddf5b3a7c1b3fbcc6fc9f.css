@@ -1,0 +1,219 @@
+/* line 5, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/products.scss */
+.row {
+  padding: 20px;
+}
+/* line 1, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 4, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 8, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* line 13, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+body, html {
+  position: relative;
+  padding-top: 120px;
+}
+
+/* line 17, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  float: right;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+/* line 26, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.nav {
+  float: right;
+}
+
+/* line 29, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.nav ul li {
+  display: inline-block;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+/* line 35, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.nav ul li a {
+  color: white;
+}
+
+/* line 38, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+
+/* line 42, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.projectName {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 13px;
+}
+
+/* line 47, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.projectName a {
+  color: white;
+  padding: 15px;
+}
+
+/* line 51, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+h1 {
+  font-family: sans-serif;
+  color: #78a5e3;
+  text-align: center;
+}
+
+/* line 56, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+h2 {
+  font-family: serif;
+  color: #b15ab2;
+  text-align: center;
+}
+
+/* line 61, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+img {
+  padding: 20px;
+}
+
+/* line 64, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+p {
+  padding: 25px;
+  text-align: left;
+}
+
+/* line 68, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -60px;
+}
+
+/* line 73, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+/* line 77, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.site-footer, .page-wrap:after {
+  height: 60px;
+}
+
+/* line 80, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.site-footer {
+  background: black;
+  color: white;
+}
+
+/* line 84, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+.carousel-caption {
+  color: blue;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
