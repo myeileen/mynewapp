@@ -163,41 +163,47 @@ h2 {
 }
 
 /* line 61, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+h3 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* line 65, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
 img {
   padding: 20px;
 }
 
-/* line 64, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+/* line 68, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
 p {
   padding: 25px;
   text-align: left;
 }
 
-/* line 68, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+/* line 72, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -60px;
 }
 
-/* line 73, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+/* line 77, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
 .page-wrap:after {
   content: "";
   display: block;
 }
 
-/* line 77, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+/* line 81, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
 .site-footer, .page-wrap:after {
   height: 60px;
 }
 
-/* line 80, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+/* line 84, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
 .site-footer {
   background: black;
   color: white;
 }
 
-/* line 84, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
+/* line 88, /Users/PBBnME/Documents/mynewapp/app/assets/stylesheets/static_pages.scss */
 .carousel-caption {
   color: blue;
 }
